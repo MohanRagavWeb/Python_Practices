@@ -16,5 +16,6 @@ class Manager(Employee):
         print("Manager Dept:",self.department)
 
 m1=Manager("Mohan",30000,"IT")
+
 m1.display_employee()
 m1.display_Manager()
