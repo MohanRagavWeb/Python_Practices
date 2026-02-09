@@ -5,7 +5,6 @@ result = operation(5)(3)
 print(result)
 
 
-
 operation = lambda a: (lambda b: (a * b) ** 2)
 
 print(operation(2)(3))
